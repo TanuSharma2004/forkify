@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Tanu Sharma",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-optimize"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "assert": "^2.1.0",
+    "parcel": "^2.16.4",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.12",
+    "regenerator": "^0.14.12",
+    "runtime": "^0.14.1"
+  }
+}
